@@ -22,4 +22,4 @@ class ArticlesFactory extends Factory
             'tag' => fake()->word(1, true)
         ];
     }
-}
+}  

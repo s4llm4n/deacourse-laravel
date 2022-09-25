@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 
 class UsersController extends Controller
 {
-    public function index()
+    public function login_form()
     {
-        ddd('users index method on conroller');
+       return view('login');
     }
 }
     
